@@ -6,6 +6,7 @@ This project contains implementations of fundamental C functions focused on poin
 
 - **0x05-pointers_arrays_strings/**: Pointers, arrays, and strings tasks
 - **0x06-pointers_arrays_strings/**: Advanced pointers, arrays, and strings tasks
+- **0x07-pointers_arrays_strings/**: Even more pointers, arrays, and strings tasks
 
 ## Project Requirements
 
@@ -43,7 +44,16 @@ This project contains implementations of fundamental C functions focused on poin
 5. **string_toupper** - Changes all lowercase letters to uppercase
 6. **cap_string** - Capitalizes all words of a string
 7. **leet** - Encodes a string into 1337 (leet speak)
+### 0x07 - Even More Pointers, Arrays, Strings
 
+0. **_memset** - Fills memory with a constant byte
+1. **_memcpy** - Copies memory area
+2. **_strchr** - Locates a character in a string
+3. **_strspn** - Gets the length of a prefix substring
+4. **_strpbrk** - Searches a string for any of a set of bytes
+5. **_strstr** - Locates a substring
+6. **print_chessboard** - Prints the chessboard
+7. **print_diagsums** - Prints the sum of the two diagonals of a square matrix
 ## Compilation
 
 ```bash
