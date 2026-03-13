@@ -1,11 +1,6 @@
-# set-low_level_programming
+# 0x06 - Pointers, Arrays, Strings
 
-This project contains implementations of fundamental C functions focused on pointers, arrays, and strings.
-
-## Directory Structure
-
-- **0x05-pointers_arrays_strings/**: Pointers, arrays, and strings tasks
-- **0x06-pointers_arrays_strings/**: Advanced pointers, arrays, and strings tasks
+This directory contains implementations of advanced C functions for string manipulation, array operations, and comparisons.
 
 ## Project Requirements
 
@@ -20,21 +15,6 @@ This project contains implementations of fundamental C functions focused on poin
 
 ## Tasks Completed
 
-### 0x05 - Pointers, Arrays, Strings
-
-0. **reset_to_98** - Sets an integer value to 98 via pointer
-1. **swap_int** - Swaps values of two integers
-2. **_strlen** - Returns the length of a string
-3. **_puts** - Prints a string followed by newline
-4. **print_rev** - Prints a string in reverse
-5. **rev_string** - Reverses a string in place
-6. **puts2** - Prints every other character of a string
-7. **puts_half** - Prints the second half of a string
-8. **print_array** - Prints array elements separated by commas
-9. **_strcpy** - Copies a string from source to destination
-
-### 0x06 - Advanced Pointers, Arrays, Strings
-
 0. **_strcat** - Concatenates two strings
 1. **_strncat** - Concatenates two strings using at most n bytes from src
 2. **_strncpy** - Copies a string with a maximum length
@@ -47,9 +27,21 @@ This project contains implementations of fundamental C functions focused on poin
 ## Compilation
 
 ```bash
-cd 0x05-pointers_arrays_strings
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c <task>.c <main>.c -o <output>
 ```
+
+## Files
+
+- `main.h` - Header file with function prototypes
+- `0-strcat.c` - Implementation of _strcat
+- `1-strncat.c` - Implementation of _strncat
+- `2-strncpy.c` - Implementation of _strncpy
+- `3-strcmp.c` - Implementation of _strcmp
+- `4-rev_array.c` - Implementation of reverse_array
+- `5-string_toupper.c` - Implementation of string_toupper
+- `6-cap_string.c` - Implementation of cap_string
+- `7-leet.c` - Implementation of leet
+- `_putchar.c` - Helper function for character output
 
 ## Author
 
